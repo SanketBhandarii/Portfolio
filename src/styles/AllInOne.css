@@ -1,0 +1,21 @@
+
+.animeIcon{
+    animation: introAnimation 1s ease-in-out infinite alternate;
+}
+@keyframes introAnimation {
+    0%{
+        transform: translateY(-10px);
+    }100%{
+        transform: translateY(0px);
+    }
+}
+.darkabout{
+    background: rgb(6,96,119);
+background: linear-gradient(61deg, rgba(6,96,119,1) 0%, rgba(0,0,0,1) 50%, rgba(0,1,1,1) 51%, rgba(2,26,31,1) 100%);
+}
+.whiteabout{
+    background-image: linear-gradient(to right top , #fff1eb 0%, #ace0f9 100%);
+}
+.showMenu{
+    transition: 0.2s linear all;
+}
