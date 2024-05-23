@@ -1,8 +1,16 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Fully responsive portfolio showcasing projects and skills. 🌟
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ **Dark Mode**: Toggle between light and dark mode for comfortable viewing.
+  
+📚 **Sidebar Navigation**: Easy navigation with a slide-out sidebar menu.
+
+⚛️ **Context API**: State management using React Context API for efficient data sharing.
+
+🌐 **React Router DOM**: Seamless navigation between pages with React Router DOM.
+
+📱 **Fully Responsive**: Ensures optimal viewing experience across all devices.
+
