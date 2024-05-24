@@ -8,11 +8,11 @@ function Hero() {
     <main
       className={
         dark
-          ? "h-height_1 bg-bgClr_3 flex items-center justify-around max-screen5:flex-col-reverse max-screen5:h-height_7 max-screen5:justify-center max-screen3:gap-10 max-screen7:px-4"
-          : "h-height_1 bg-slate-100 flex items-center justify-around max-screen5:flex-col-reverse max-screen5:h-height_7 max-screen5:justify-center max-screen3:gap-10 max-screen7:px-4"
+          ? "h-height_1 hero bg-bgClr_3 flex items-center justify-around max-screen5:flex-col-reverse max-screen5:h-height_7 max-screen5:justify-center max-screen3:gap-10 max-screen7:px-4"
+          : "h-height_1 hero bg-slate-100 flex items-center justify-around max-screen5:flex-col-reverse max-screen5:h-height_7 max-screen5:justify-center max-screen3:gap-10 max-screen7:px-4"
       }
     >
-      <section className="intro max-screen7:px-2">
+      <section className="max-screen7:px-2">
         
         <h4
           className={
@@ -22,7 +22,7 @@ function Hero() {
           }
         >
           Hi !
-          <span className={dark ? "text-cyan-700" : "text-cyan-700"}>
+          <span className={dark ? "text-cyan-700 domaindark" : "text-cyan-700 domainwhite"}>
             Sanket Bhandari : )
           </span>
           Frontend Dev

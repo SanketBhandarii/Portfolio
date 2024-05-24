@@ -12,7 +12,7 @@ export default {
         bgClr_3 : "#1b1f1c",
         bgCLr_4 : "#21232b",
         bgClr_5 : "#e4ecf0",
-        bgClr_6 : "#dee3fa"
+        bgClr_6 : "#d4ebfa"
       },
       height: {
         height_1: "500px",

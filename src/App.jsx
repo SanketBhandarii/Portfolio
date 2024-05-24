@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import DarkMode, { DarkModeProvider } from "./store/DarkMode";
@@ -6,18 +6,28 @@ import Stack from "./components/Stack";
 import Project from "./components/Project";
 import { Outlet } from "react-router-dom";
 import Contact from "./components/Contact";
-
+import Intro from "./components/Intro";
 
 function App() {
-  // const [dark, setDark] = useState(true);
-  // let value = [dark, setDark];
+  const [time, setTime] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setTime(!time);
+    }, 1500);
+  }, []);
   return (
-     <>
-      <Header/>
-      <Hero />
-      <Stack />
-      <Project/>
-      <Contact/>
+    <>
+      {time ? (
+        <Intro />
+      ) : (
+        <>
+          <Header />
+          <Hero />
+          <Stack />
+          <Project />
+          <Contact />
+        </>
+      )}
     </>
   );
 }

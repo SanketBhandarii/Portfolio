@@ -11,8 +11,8 @@ function Project() {
     <section
       className={
         dark
-          ? "min-h-screen font-font_1 pt-14 bg-zinc-900"
-          : "min-h-screen font-font_1 pt-14 bg-slate-100"
+          ? " font-font_1 pt-14 pb-14 bg-zinc-900"
+          : " font-font_1 pt-14 pb-14 bg-slate-100"
       }
       id="Project"
     >

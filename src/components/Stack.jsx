@@ -30,7 +30,7 @@ function Stack() {
       >
         Technologies I've been working with recently
       </p>
-      <div className="h-32 flex gap-20 flex-wrap mt-20 justify-center items-center px-10 m-auto">
+      <div className="h-32 flex gap-16 flex-wrap mt-20 justify-center items-center px-10 m-auto">
         <i className="fa-brands fa-html5 text-orange-500 text-8xl"></i>
         <i className="fa-brands fa-css3-alt  text-sky-600 text-8xl"></i>
         <i className="fa-brands fa-js text-yellow-300 text-8xl"></i>
@@ -46,6 +46,7 @@ function Stack() {
         <img
           src="https://static-00.iconduck.com/assets.00/mongodb-original-icon-921x2048-hvrb89lu.png"
           width="50px"
+          className="ml-10"
         />
         <img
           src="https://cdn.iconscout.com/icon/free/png-256/free-java-60-1174953.png?f=webp"

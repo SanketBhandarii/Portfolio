@@ -1,21 +1,67 @@
+.animeIcon {
+  animation: animeAnimation 1s ease-in-out infinite alternate;
+}
+@keyframes animeAnimation {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.darkabout {
+  background: rgb(6, 96, 119);
+  background: linear-gradient(
+    61deg,
+    rgba(6, 96, 119, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 1, 1, 1) 51%,
+    rgba(2, 26, 31, 1) 100%
+  );
+}
+.whiteabout {
+  background-image: linear-gradient(to right top, #fff1eb 0%, #ace0f9 100%);
+}
+.showMenu {
+  transition: 0.2s linear all;
+}
+.domaindark {
+  background: rgb(228, 230, 236);
+  background: linear-gradient(
+    61deg,
+    rgba(228, 230, 236, 1) 0%,
+    rgba(8, 127, 210, 1) 55%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-.animeIcon{
-    animation: introAnimation 1s ease-in-out infinite alternate;
+.domainwhite {
+  background: rgb(228, 230, 236);
+  background: linear-gradient(61deg, rgb(29, 29, 31) 0%, rgb(4, 150, 199) 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+.intro {
+  animation: introAnimation 1.5s ease-in-out 1 alternate forwards;
+}
+
 @keyframes introAnimation {
-    0%{
-        transform: translateY(-10px);
-    }100%{
-        transform: translateY(0px);
-    }
+  0% {
+    transform: rotate(360deg) scale(1.5);
+    color: rgb(255, 150, 30);
+  }
+  50% {
+    transform: rotate(90deg) scale(0.8);
+    color: beige;
+  }
+  100% {
+    transform: rotate(0deg) scale(1.5);
+    color: rgb(88, 193, 237);
+  }
 }
-.darkabout{
-    background: rgb(6,96,119);
-background: linear-gradient(61deg, rgba(6,96,119,1) 0%, rgba(0,0,0,1) 50%, rgba(0,1,1,1) 51%, rgba(2,26,31,1) 100%);
-}
-.whiteabout{
-    background-image: linear-gradient(to right top , #fff1eb 0%, #ace0f9 100%);
-}
-.showMenu{
-    transition: 0.2s linear all;
+
+
+.intro-back {
+  background-color: #1a1b1b;
 }

@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import AbtImg from "../assets/AboutImg.webp";
 import DarkMode from "../store/DarkMode";
 
 function About() {
@@ -37,7 +36,7 @@ function About() {
             portfolio. I'm excited to share my journey and projects with you!
           </p>
         </article>
-        <img src={AbtImg} className="animeIcon rounded-full w-width_2 max-screen2:w-width_3" />
+        <img src="https://camo.githubusercontent.com/b4e374638714436d8b2e4f7db25555cfa2a968d527f30b8e2f2946376d6bfe75/68747470733a2f2f70726f6d7074692e61692f77702d636f6e74656e742f75706c6f6164732f323032332f30372f7063626f69322e706e67" className="animeIcon rounded-full w-width_2 max-screen2:w-width_3" />
       </section>
     </div>
   );
