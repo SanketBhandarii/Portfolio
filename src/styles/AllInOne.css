@@ -48,7 +48,7 @@
 
 @keyframes introAnimation {
   0% {
-    transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg) scale(1);
     color: rgb(255, 150, 30);
   }
   50% {
@@ -56,8 +56,8 @@
     color: beige;
   }
   100% {
-    transform: rotate(0deg) scale(1.5);
-    color: rgb(88, 193, 237);
+    transform: rotate(0deg) scale(1);
+    color: rgb(237, 215, 88);
   }
 }
 

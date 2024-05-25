@@ -11,9 +11,9 @@ import Intro from "./components/Intro";
 function App() {
   const [time, setTime] = useState(true);
   useEffect(() => {
-    setTimeout(() => {
+    const timeout =  setTimeout(() => {
       setTime(!time);
-    }, 1500);
+    }, 5000);
   }, []);
   return (
     <>

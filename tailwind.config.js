@@ -12,7 +12,8 @@ export default {
         bgClr_3 : "#1b1f1c",
         bgCLr_4 : "#21232b",
         bgClr_5 : "#e4ecf0",
-        bgClr_6 : "#d4ebfa"
+        bgClr_6 : "#d4ebfa",
+        bgClr_7 : "#0e111f"
       },
       height: {
         height_1: "500px",
@@ -28,7 +29,7 @@ export default {
          width_2 : "400px",
          width_3 : "290px",
          width_4 : "500px",
-         
+         width_5 : "700px"
       },
       fontFamily: {
         font_1: ['"Radio Canada Big"', "sans-serif"],
