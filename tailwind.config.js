@@ -21,7 +21,7 @@ export default {
         height_3: "900px",
         height_4: "450px",
         height_6: "330px",
-        height_7 : "800px",
+        height_7 : "700px",
         height_8 : "280px"
       },
       width:{
