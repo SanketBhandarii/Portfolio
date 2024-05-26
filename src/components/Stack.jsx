@@ -7,7 +7,7 @@ function Stack() {
     <section
       className={
         dark
-          ? "h-height_2 max-screen11:min-h-minH1 max-screen12:min-h-minH2 max-screen4:min-h-minH3 max-screen7:min-h-minH5 max-screen13:min-h-minH6 max-screen14:min-h-minH7 max-screen15:min-h-screen items-center font-font_1 pt-36 bg-clr_1"
+          ? "h-height_2 max-screen11:min-h-minH1 max-screen12:min-h-minH2 max-screen4:min-h-minH3 max-screen7:min-h-minH5 max-screen13:min-h-minH6 max-screen14:min-h-minH7 items-center font-font_1 pt-36 bg-clr_1"
           : "h-height_2 max-screen11:min-h-minH1 max-screen12:min-h-minH2 max-screen4:min-h-minH3 max-screen7:min-h-minH5 max-screen13:min-h-minH6 max-screen14:min-h-minH7 items-center font-font_1 pt-36 bg-white"
       }
       id="TechStack"
@@ -46,7 +46,7 @@ function Stack() {
         <img
           src="https://static-00.iconduck.com/assets.00/mongodb-original-icon-921x2048-hvrb89lu.png"
           width="50px"
-          className="ml-10"
+          className="ml-5"
         />
         <img
           src="https://cdn.iconscout.com/icon/free/png-256/free-java-60-1174953.png?f=webp"

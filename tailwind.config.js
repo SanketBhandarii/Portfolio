@@ -21,7 +21,7 @@ export default {
         height_3: "900px",
         height_4: "450px",
         height_6: "330px",
-        height_7 : "600px",
+        height_7 : "800px",
         height_8 : "280px"
       },
       width:{
@@ -40,7 +40,7 @@ export default {
       screens : {
        screen1 : "1065px",
        screen2 : "482px",
-       screen3 : "1145px",
+       screen3 : "1190px",
        screen4 : "644px",
        screen5 : "1063px",
        screen6 : "738px",
@@ -61,7 +61,7 @@ export default {
         minH4 : "400px",
         minH5 : "1000px",
         minH6 : "1100px",
-        minH7 : "1200px"
+        minH7 : "1110px"
       },
       translate : {
         val1 : "510px",

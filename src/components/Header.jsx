@@ -23,7 +23,7 @@ function Header() {
       <div
         className={`absolute top-0 left-0 h-full w-full bg-opacity-75 transition-transform transform ${
           show ? "translate-x-0" : "-translate-x-full"
-        } ${dark ? "bg-clr_1" : "bg-bgClr_6"} z-50`}
+        } ${dark ? "bg-clr_1" : "bg-slate-200"} z-50`}
       >
         <div className="flex justify-end p-6">
           <i
