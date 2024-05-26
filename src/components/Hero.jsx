@@ -16,8 +16,8 @@ function Hero() {
         <h4
           className={
             dark
-              ? "text-slate-100 font-font_1 font-semibold text-5xl max-screen7:text-center max-screen8:text-4xl max-screen2:text-4xl"
-              : "text-clr_1 font-font_1 font-semibold text-5xl max-screen7:text-center max-screen8:text-4xl max-screen2:text-4xl"
+              ? "text-slate-100 font-font_1 font-semibold text-5xl flex gap-2 flex-col max-screen7:text-center max-screen8:text-4xl max-screen2:text-4xl"
+              : "text-clr_1 font-font_1 font-semibold text-5xl flex gap-2 flex-col max-screen7:text-center max-screen2:text-4xl"
           }
         >
           
