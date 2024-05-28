@@ -5,28 +5,20 @@ function Stack() {
   const [dark] = useContext(DarkMode);
   return (
     <section
-      className={
-        dark
-          ? "h-auto py-20 font-font_1 bg-clr_1"
-          : "h-auto py-20 font-font_1 bg-white"
-      }
+      className={`h-auto py-20 font-font_1 ${dark ? "bg-clr_1" : "bg-white"}`}
       id="TechStack"
     >
       <h4
-        className={
-          dark
-            ? "text-3xl text-center text-gray-300 pb-5"
-            : "text-3xl text-center text-black pb-5"
-        }
+        className={`text-3xl text-center ${
+          dark ? "text-gray-300" : "text-black"
+        } pb-5`}
       >
         My Tech <span className="text-cyan-700">Stack</span>
       </h4>
       <p
-        className={
-          dark
-            ? "text-xl text-center text-gray-400 max-md:px-3"
-            : "text-xl text-center text-black max-md:px-3"
-        }
+        className={`text-xl text-center ${
+          dark ? "text-gray-400" : "text-black"
+        } max-md:px-3`}
       >
         Technologies I've been working with recently
       </p>
