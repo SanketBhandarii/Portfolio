@@ -8,16 +8,16 @@ function Hero() {
     <main
       className={
         dark
-          ? "h-height_1 hero bg-bgClr_3 flex items-center justify-center gap-32 max-screen5:flex-col-reverse max-screen5:h-height_7 max-screen5:justify-center max-screen3:gap-14 max-screen3:px-10 max-screen7:px-4"
-          : "h-height_1 hero bg-slate-100 flex items-center justify-center gap-32 max-screen5:flex-col-reverse max-screen5:h-height_7 max-screen5:justify-center max-screen3:gap-14 max-screen3:px-10 max-screen7:px-4"
+          ? "h-auto py-24 bg-bgClr_3 flex items-center justify-center gap-32 max-screen5:flex-col-reverse max-xl:gap-14 max-xl:px-10 max-sm:px-4"
+          : "h-auto py-24 bg-slate-100 flex items-center justify-center gap-32 max-screen5:flex-col-reverse max-xl:gap-14 max-xl:px-10 max-sm:px-4"
       }
     >
       <section className="flex flex-col gap-10">
         <h4
           className={
             dark
-              ? "text-slate-100 font-font_1 font-semibold text-5xl flex gap-2 flex-col max-screen7:text-center  max-screen2:text-4xl"
-              : "text-clr_1 font-font_1 font-semibold text-5xl flex gap-2 flex-col max-screen7:text-center max-screen2:text-4xl"
+              ? "text-slate-100 font-font_1 font-semibold text-5xl flex gap-2 flex-col max-sm:text-center  max-screen2:text-4xl"
+              : "text-clr_1 font-font_1 font-semibold text-5xl flex gap-2 flex-col max-sm:text-center max-screen2:text-4xl"
           }
         >
           
@@ -30,7 +30,7 @@ function Hero() {
           </span>
           Frontend Dev
         </h4>
-        <p className={ dark ? "w-width_4 text-slate-300 font-font_1 max-screen7:w-full max-screen7:px-3 max-screen7:text-center" : "w-width_4 text-slate-700 font-font_1 max-screen7:w-full max-screen7:px-3 max-screen7:text-center"}>
+        <p className={ dark ? "w-width_4 text-slate-300 font-font_1 max-sm:w-full max-sm:px-3 max-sm:text-center" : "w-width_4 text-slate-700 font-font_1 max-sm:w-full max-sm:px-3 max-sm:text-center"}>
           I am a dedicated professional with expertise in FRONTEND. I excel
           in delivering innovative projects and thrive in collaborative
           environments, committed to making a meaningful impact.

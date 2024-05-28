@@ -16,8 +16,8 @@ function Header() {
     <header
       className={
         dark
-          ? "bg-clr_1 h-20 flex justify-around items-center max-screen6:gap-40"
-          : "bg-white h-20 flex justify-around items-center max-screen6:gap-40"
+          ? "bg-clr_1 h-20 flex justify-around items-center max-md:gap-40"
+          : "bg-white h-20 flex justify-around items-center max-md:gap-40"
       }
     >
       <div
@@ -94,14 +94,14 @@ function Header() {
       <div>
         <section>
           {dark ? (
-            <span className="cursor-pointer py-2 px-2 hidden max-screen6:block">
+            <span className="cursor-pointer py-2 px-2 hidden max-md:block">
               <i
                 class="fa-solid fa-bars text-white text-3xl"
                 onClick={showMenu}
               ></i>
             </span>
           ) : (
-            <span className="cursor-pointer py-2 px-2 hidden max-screen6:block">
+            <span className="cursor-pointer py-2 px-2 hidden max-md:block">
               <i
                 class="fa-solid fa-bars text-black text-3xl"
                 onClick={showMenu}
@@ -111,8 +111,8 @@ function Header() {
           <ul
             className={
               dark
-                ? "flex gap-4 items-center text-slate-300 font-font_1 text-fontSize_1 max-screen6:hidden"
-                : "flex gap-4 items-center text-clr_1 font-font_1 text-fontSize_1 max-screen6:hidden"
+                ? "flex gap-4 items-center text-slate-300 font-font_1 text-lg max-md:hidden"
+                : "flex gap-4 items-center text-clr_1 font-font_1 text-lg max-md:hidden"
             }
           >
             <li className="cursor-pointer py-2 px-2">Home</li>

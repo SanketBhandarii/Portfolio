@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const timeout =  setTimeout(() => {
       setTime(!time);
-    }, 4000);
+    }, 3000);
   }, []);
   return (
     <>

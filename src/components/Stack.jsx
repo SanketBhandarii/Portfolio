@@ -7,16 +7,16 @@ function Stack() {
     <section
       className={
         dark
-          ? "h-height_2 max-screen11:min-h-minH1 max-screen12:min-h-minH2 max-screen4:min-h-minH3 max-screen7:min-h-minH5 max-screen13:min-h-minH6 max-screen14:min-h-minH7 items-center font-font_1 pt-36 bg-clr_1"
-          : "h-height_2 max-screen11:min-h-minH1 max-screen12:min-h-minH2 max-screen4:min-h-minH3 max-screen7:min-h-minH5 max-screen13:min-h-minH6 max-screen14:min-h-minH7 items-center font-font_1 pt-36 bg-white"
+          ? "h-auto py-20 font-font_1 bg-clr_1"
+          : "h-auto py-20 font-font_1 bg-white"
       }
       id="TechStack"
     >
       <h4
         className={
           dark
-            ? "text-3xl text-center text-gray-300 pb-5 max-screen4:px-3"
-            : "text-3xl text-center text-black pb-5 max-scree4:px-3"
+            ? "text-3xl text-center text-gray-300 pb-5"
+            : "text-3xl text-center text-black pb-5"
         }
       >
         My Tech <span className="text-cyan-700">Stack</span>
@@ -24,13 +24,13 @@ function Stack() {
       <p
         className={
           dark
-            ? "text-xl text-center text-gray-400 max-screen4:px-3 "
-            : "text-xl text-center text-black max-scree4:px-3"
+            ? "text-xl text-center text-gray-400 max-md:px-3"
+            : "text-xl text-center text-black max-md:px-3"
         }
       >
         Technologies I've been working with recently
       </p>
-      <div className="h-32 flex gap-16 flex-wrap mt-20 justify-center items-center px-10 m-auto">
+      <div className="flex gap-16 flex-wrap mt-20 justify-center items-center px-10">
         <i className="fa-brands fa-html5 text-orange-500 text-8xl"></i>
         <i className="fa-brands fa-css3-alt  text-sky-600 text-8xl"></i>
         <i className="fa-brands fa-js text-yellow-300 text-8xl"></i>

@@ -11,8 +11,8 @@ function Project() {
     <section
       className={
         dark
-          ? " font-font_1 pt-14 pb-14 bg-zinc-900"
-          : " font-font_1 pt-14 pb-14 bg-slate-100"
+          ? "h-auto font-font_1 pt-14 bg-zinc-900"
+          : "h-auto font-font_1 pt-14 bg-slate-100"
       }
       id="Project"
     >
@@ -39,8 +39,8 @@ function Project() {
         <div
           className={
             dark
-              ? "w-72 bg-bgClr_2 rounded-lg overflow-hidden h-height_4 cursor-pointer hover:scale-105 transition-all duration-300"
-              : "w-72 bg-white rounded-lg shadow-2xl shadow-slate-300 overflow-hidden h-height_4 cursor-pointer hover:scale-105 transition-all duration-300"
+              ? "w-72 bg-bgClr_2 rounded-lg overflow-hidden h-auto pb-10 cursor-pointer hover:scale-105 transition-all duration-300"
+              : "w-72 bg-white rounded-lg shadow-2xl shadow-slate-300 overflow-hidden h-auto pb-10 cursor-pointer hover:scale-105 transition-all duration-300"
           }
         >
           <img
@@ -102,8 +102,8 @@ function Project() {
         <div
           className={
             dark
-              ? "w-72  bg-bgClr_2 rounded-lg overflow-hidden h-height_4 cursor-pointer hover:scale-105 transition-all duration-300"
-              : "w-72 bg-white rounded-lg shadow-2xl h-height_4 shadow-slate-300 cursor-pointer overflow-hidden hover:scale-105 transition-all duration-300"
+              ? "w-72  bg-bgClr_2 rounded-lg overflow-hidden h-auto pb-10 cursor-pointer hover:scale-105 transition-all duration-300"
+              : "w-72 bg-white rounded-lg shadow-2xl h-auto pb-10 shadow-slate-300 cursor-pointer overflow-hidden hover:scale-105 transition-all duration-300"
           }
         >
           <img
@@ -165,8 +165,8 @@ function Project() {
         <div
           className={
             dark
-              ? "w-72  bg-bgClr_2 rounded-lg overflow-hidden h-height_4 cursor-pointer hover:scale-105 transition-all duration-300"
-              : "w-72 bg-white rounded-lg shadow-2xl h-height_4 shadow-slate-300 cursor-pointer overflow-hidden hover:scale-105 transition-all duration-300"
+              ? "w-72  bg-bgClr_2 rounded-lg overflow-hidden h-auto pb-10 cursor-pointer hover:scale-105 transition-all duration-300"
+              : "w-72 bg-white rounded-lg shadow-2xl h-auto pb-10 shadow-slate-300 cursor-pointer overflow-hidden hover:scale-105 transition-all duration-300"
           }
         >
           <img
@@ -228,8 +228,8 @@ function Project() {
         <div
           className={
             dark
-              ? "w-72  bg-bgClr_2 rounded-lg overflow-hidden h-height_4 cursor-pointer hover:scale-105 transition-all duration-300"
-              : "w-72 bg-white rounded-lg shadow-2xl shadow-slate-300 h-height_4 cursor-pointer overflow-hidden hover:scale-105 transition-all duration-300"
+              ? "w-72  bg-bgClr_2 rounded-lg overflow-hidden h-auto pb-10 cursor-pointer hover:scale-105 transition-all duration-300"
+              : "w-72 bg-white rounded-lg shadow-2xl shadow-slate-300 h-auto pb-10 cursor-pointer overflow-hidden hover:scale-105 transition-all duration-300"
           }
         >
           <img
