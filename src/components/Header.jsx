@@ -149,7 +149,7 @@ function Header() {
             >
               <i
                 className={`fa-brands fa-linkedin cursor-pointer ${
-                  dark ? "text-zinc-300" : "text-cyan-300"
+                  dark ? "text-zinc-300" : "text-cyan-700"
                 }`}
               ></i>
             </a>
