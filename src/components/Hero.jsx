@@ -26,7 +26,7 @@ function Hero() {
         <p
           className={`w-width_4 ${
             dark ? "text-slate-300" : "text-slate-700"
-          } font-font_1 max-sm:w-full max-sm:px-3 `}
+          } font-font_1 max-sm:w-full max-sm:px-3 max-sm:text-center`}
         >
           I am a dedicated professional with expertise in FRONTEND. I excel in
           delivering innovative projects and thrive in collaborative
