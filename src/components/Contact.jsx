@@ -28,7 +28,7 @@ function Contact() {
         >
           Email Id :- 
           <span className="text-cyan-700">
-            <a href="">bhandarisanketp@gmail.com</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bhandarisanketp@gmail.com" target="_blank">bhandarisanketp@gmail.com</a>
           </span>
         </h4>
       </div>

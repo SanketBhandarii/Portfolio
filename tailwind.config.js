@@ -10,13 +10,13 @@ export default {
         bgClr_1: "#171717",
         bgClr_2 : "#282c2e",
         bgClr_3 : "#1b1f1c",
+        bgClr_4 : "#0f1217"
       },
       width:{
          width_1 : "590px",
          width_2 : "400px",
          width_3 : "290px",
          width_4 : "500px",
-         width_5 : "700px"
       },
       fontFamily: {
         font_1: ['"Radio Canada Big"', "sans-serif"],
