@@ -5,8 +5,8 @@ function Intro() {
   return (
     <div className="overflow-hidden min-h-screen bg-bgClr_4 flex justify-center items-center">
       <img
-        src="https://cdn.dribbble.com/users/563824/screenshots/2651843/untitled-4.gif"
-        className="object-cover "
+        src="https://i.pinimg.com/originals/9e/8c/6d/9e8c6d7fe9ef07a28bf57324725660f5.gif"
+        className="object-cover rounded-full"
       />
     </div>
   );
