@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         clr_1: "#171717",
+        clr_2 :"#023052"
       },
       backgroundColor: {
         bgClr_1: "#171717",

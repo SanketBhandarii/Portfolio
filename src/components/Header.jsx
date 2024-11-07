@@ -19,9 +19,9 @@ function Header() {
       } h-20 flex justify-around items-center max-md:gap-40`}
     >
       <div
-        className={`absolute top-0 left-0 h-full w-full bg-opacity-75 transition-transform transform ${
-          show ? "translate-x-0" : "-translate-x-full"
-        } ${dark ? "bg-clr_1" : "bg-slate-200"} z-50`}
+        className={`absolute top-0 left-0 h-full w-80 bg-opacity-90 transition-transform transform ${
+          show ? "-translate-x-20" : "-translate-x-full"
+        } ${dark ? "bg-bgClr_1" : "bg-neutral-400"} z-50`}
       >
         <div className="flex justify-end p-6">
           <i
@@ -32,9 +32,9 @@ function Header() {
           ></i>
         </div>
         <ul
-          className={`flex flex-col items-center gap-7 pt-10 ${
+          className={`flex flex-col justify-center gap-7 ml-28 ${
             dark ? "text-slate-300" : "text-clr_1"
-          } font-font_1 text-2xl`}
+          } font-font_1 text-xl`}
         >
           <NavLink to="/">
             <li className="cursor-pointer py-2 px-2" onClick={showMenu}>
@@ -56,7 +56,7 @@ function Header() {
           <a
             href="https://github.com/SanketBhandarii"
             target="_blank"
-            className="text-4xl"
+            className="text-4xl ml-2"
             onClick={showMenu}
           >
             <i
@@ -68,7 +68,7 @@ function Header() {
           <a
             href="https://www.linkedin.com/in/SanketBhandari/"
             target="_blank"
-            className="text-4xl"
+            className="text-4xl ml-2"
             onClick={showMenu}
           >
             <i
