@@ -1,5 +1,9 @@
 import React, { useContext } from "react";
 import DarkMode from "../store/DarkMode";
+import tailwind from '../assets/tailwind.png'
+import sql from '../assets/sql.png'
+import mongo from '../assets/mongo.png'
+import java from '../assets/java.webp'
 
 function Stack() {
   const [dark] = useContext(DarkMode);
@@ -28,20 +32,20 @@ function Stack() {
         <i className="fa-brands fa-js text-yellow-300 text-8xl"></i>
         <i className="fa-brands fa-react text-cyan-400 text-8xl"></i>
         <img
-          src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"
+          src={tailwind}
           width="100px"
         />
         <img
-          src="https://seeklogo.com/images/A/azure-sql-database-logo-D7A32C9CD9-seeklogo.com.png"
+          src={sql}
           width="70px"
         />
         <img
-          src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png"
+          src={mongo}
           width="100px"
           className="ml-0"
         />
         <img
-          src="https://cdn.iconscout.com/icon/free/png-256/free-java-60-1174953.png?f=webp"
+          src={java}
           width="100px"
         />
       </div>

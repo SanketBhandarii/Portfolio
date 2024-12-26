@@ -14,7 +14,7 @@ function Contact() {
         Contact Details
       </h1>
       <div
-        className={`flex justify-center gap-20 max-lg:gap-10 flex-wrap pt-10 px-5 items-center mt-6 border-t-2 ${
+        className={`flex justify-center gap-5 max-lg:gap-10 flex-wrap pt-5 px-5 items-center ${
           dark ? "border-gray-700" : "border-gray-300"
         }`}
       >
