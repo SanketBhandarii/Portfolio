@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useContext, useEffect, useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import DarkMode, { DarkModeProvider } from "./store/DarkMode";
@@ -10,11 +10,16 @@ import Intro from "./components/Intro";
 
 function App() {
   const [time, setTime] = useState(true);
+  // const [dark, setDark] = useContext(DarkMode);
   useEffect(() => {
-    const timeout =  setTimeout(() => {
+    const timeout = setTimeout(() => {
       setTime(!time);
     }, 3000);
   }, []);
+  // useEffect(() => {
+  //   document.querySelector("html").classList.remove("dark", "light");
+  //   document.querySelector("html").classList.add(dark);
+  // }, [dark]);
   return (
     <>
       {time ? (
