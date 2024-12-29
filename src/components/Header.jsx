@@ -41,7 +41,7 @@ function Header() {
               Home
             </li>
           </NavLink>
-          <NavLink to="/About" onClick={showMenu}>
+          <NavLink to="/about" onClick={showMenu}>
             <li className="cursor-pointer py-2 px-2">About</li>
           </NavLink>
           <a href="#TechStack" onClick={showMenu}>
