@@ -1,12 +1,12 @@
 // src/main.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
-import { DarkModeProvider } from "./store/DarkMode.jsx";
 import About from "./components/About.jsx";
 import Header from "./components/Header.jsx";
+import useTheme, { ThemeProvider } from "./store/DarkMode.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,8 +19,10 @@ const router = createBrowserRouter([
   },
 ]);
 
+
+
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <DarkModeProvider>
+  <ThemeProvider>
     <RouterProvider router={router} />
-  </DarkModeProvider>
+  </ThemeProvider>
 );

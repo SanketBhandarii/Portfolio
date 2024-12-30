@@ -1,40 +1,39 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import "../styles/AllInOne.css";
-import DarkMode from "../store/DarkMode";
+import useTheme from "../store/DarkMode";
 import { NavLink, Outlet } from "react-router-dom";
 
 function Header() {
-  const [dark, setDark] = useContext(DarkMode);
+  const [theme, setTheme] = useTheme();
   const [show, setShow] = useState(false);
   function handleToggler() {
-    setDark(!dark);
+    setTheme(theme == "dark" ? "light" : "dark");
   }
   function showMenu() {
     setShow(!show);
   }
   return (
     <header
-      className={`${
-        dark ? "bg-clr_1" : "bg-white"
-      } h-20 flex justify-around items-center max-md:gap-40`}
+      className="dark:bg-clr_1 bg-white
+       h-20 flex justify-around items-center max-md:gap-40"
     >
       <div
         className={`absolute top-0 left-0 h-full w-80 bg-opacity-90 transition-transform transform ${
           show ? "-translate-x-20" : "-translate-x-full"
-        } ${dark ? "bg-bgClr_1" : "bg-neutral-300"} z-50`}
+        } dark:bg-bgClr_1 bg-neutral-300 z-50`}
       >
+        {/* X icon for the sidebar */}
         <div className="flex justify-end p-6">
           <i
-            className={`fa-solid fa-circle-xmark text-5xl cursor-pointer ${
-              dark ? "text-slate-200" : "text-clr_1"
-            }`}
+            className="fa-solid fa-circle-xmark text-5xl cursor-pointer
+              dark:text-slate-200 text-clr_1"
             onClick={showMenu}
           ></i>
         </div>
+
         <ul
-          className={`flex flex-col justify-center gap-7 ml-28 ${
-            dark ? "text-slate-300" : "text-clr_1"
-          } font-font_1 text-xl`}
+          className="flex flex-col justify-center gap-7 ml-28 
+            dark:text-slate-300 text-clr_1 font-font_1 text-xl"
         >
           <NavLink to="/">
             <li className="cursor-pointer py-2 px-2" onClick={showMenu}>
@@ -60,9 +59,8 @@ function Header() {
             onClick={showMenu}
           >
             <i
-              className={`fa-brands fa-github cursor-pointer ${
-                dark ? "text-white" : "text-clr_1"
-              }`}
+              className="fa-brands fa-github cursor-pointer 
+                dark:text-white text-clr_1"
             ></i>
           </a>
           <a
@@ -72,16 +70,15 @@ function Header() {
             onClick={showMenu}
           >
             <i
-              className={`fa-brands fa-linkedin cursor-pointer ${
-                dark ? "text-zinc-300" : "text-cyan-700"
-              }`}
+              className="fa-brands fa-linkedin cursor-pointer 
+                dark:text-zinc-300 text-cyan-700"
             ></i>
           </a>
         </ul>
       </div>
 
       <div>
-        {dark ? (
+        {theme == "dark" ? (
           <span className="cursor-pointer py-2 px-2" onClick={handleToggler}>
             <i className="fa-solid fa-moon text-white text-2xl"></i>
           </span>
@@ -93,25 +90,25 @@ function Header() {
       </div>
       <div>
         <section>
-          {dark ? (
+          {theme == "dark" ? (
             <span className="cursor-pointer py-2 px-2 hidden max-md:block">
               <i
-                class="fa-solid fa-bars text-white text-3xl"
+                className="fa-solid fa-bars text-white text-3xl"
                 onClick={showMenu}
               ></i>
             </span>
           ) : (
             <span className="cursor-pointer py-2 px-2 hidden max-md:block">
               <i
-                class="fa-solid fa-bars text-black text-3xl"
+                className="fa-solid fa-bars text-black text-3xl"
                 onClick={showMenu}
               ></i>
             </span>
           )}
           <ul
-            className={`flex gap-4 items-center ${
-              dark ? "text-slate-300" : "text-clr_1"
-            } font-font_1 text-lg max-md:hidden`}
+            className="flex gap-4 items-center
+              dark:text-slate-300 text-clr_1
+            font-font_1 text-lg max-md:hidden"
           >
             <NavLink to="/">
               <li className="cursor-pointer py-2 px-2">Home</li>
@@ -137,9 +134,8 @@ function Header() {
               className="text-3xl pr-2"
             >
               <i
-                className={`fa-brands fa-github cursor-pointer ${
-                  dark ? "text-white" : "text-clr_1"
-                }`}
+                className="fa-brands fa-github cursor-pointer
+                  dark:text-white text-clr_1"
               ></i>
             </a>
             <a
@@ -148,9 +144,8 @@ function Header() {
               className="text-3xl"
             >
               <i
-                className={`fa-brands fa-linkedin cursor-pointer ${
-                  dark ? "text-zinc-300" : "text-cyan-700"
-                }`}
+                className="fa-brands fa-linkedin cursor-pointer
+                  dark:text-zinc-300 text-cyan-700"
               ></i>
             </a>
           </ul>

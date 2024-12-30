@@ -1,11 +1,11 @@
 // src/store/DarkMode.jsx
-import React, { createContext, useState } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 
 const DarkMode = createContext();
 
-export const DarkModeProvider = ({ children }) => {
-  const [dark, setDark] = useState(true);
-  const value = [dark, setDark];
+export const ThemeProvider = ({ children }) => {
+  const [theme, setTheme] = useState("dark");
+  const value = [theme, setTheme];
   return (
     <DarkMode.Provider value={value}>
       {children}
@@ -13,4 +13,8 @@ export const DarkModeProvider = ({ children }) => {
   );
 };
 
-export default DarkMode;
+export default function useTheme(){
+  return useContext(DarkMode);
+}
+
+// export default DarkMode;

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import aboutImg from '../assets/AboutImg.webp'
-import DarkMode from "../store/DarkMode";
+// import DarkMode from "../store/DarkMode";
 
 function About() {
   const [dark] = useContext(DarkMode);
