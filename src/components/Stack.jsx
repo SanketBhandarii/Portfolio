@@ -1,39 +1,62 @@
 import React from "react";
-import tailwind from "../assets/tailwind.png";
-import sql from "../assets/sql.png";
 import mongo from "../assets/mongo.png";
 import java from "../assets/java.webp";
+import { SiExpress, SiPrisma, SiMongodb, SiJavascript } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaCss3Alt, FaReact, FaJava } from "react-icons/fa";
 
 function Stack() {
   return (
     <section
-      className="h-auto py-20 font-font_1 dark:bg-clr_1 bg-white"
+      className="h-auto py-24 font-font_1 dark:bg-clr_1 bg-white"
       id="TechStack"
     >
       <h4 className="text-3xl text-center dark:text-gray-300 text-black pb-5">
         My Tech <span className="text-cyan-700">Stack</span>
       </h4>
-      <p className="text-xl text-center dark:text-gray-400 text-black max-md:px-3">
+      <p className="text-xl text-center dark:text-gray-400 text-black max-md:px-7">
         Technologies I've been working with recently
       </p>
-      <div className="flex gap-14 max-sm:gap-11 flex-wrap mt-20 justify-center items-center px-10">
-        <i className="fa-brands fa-js dark:text-yellow-300 text-black text-8xl"></i>
-        <img
-          src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-thumbnail.png"
-          className="rounded-full"
-          width="100px"
-        />
-        <i className="fa-brands fa-css3-alt text-sky-600 text-8xl"></i>
+      <div className="flex gap-8 max-sm:gap-8 flex-wrap mt-16 justify-center items-center px-10">
+        {/* JavaScript */}
+        <div className="dark:bg-bgClr_3 bg-slate-100 p-4 rounded-md">
+          <SiJavascript className="dark:text-[#F7DF1E] text-cyan-700 text-7xl" />
+        </div>
 
-        <i className="fa-brands fa-react text-cyan-400 text-8xl"></i>
-        <img src={tailwind} width="100px" />
-        <img
-          src="https://yt3.googleusercontent.com/1oQc-j55vr_tnNhIWvSTxSPeV9cPpZyC3IoTr4zl6oUvEK50z9PjtfvKfyL8qC-sNbcQQmYg=s900-c-k-c0x00ffffff-no-rj"
-          width="100px"
-          className="rounded-full"
-        />
-        <img src={mongo} width="100px" className="ml-0" />
-        <img src={java} width="100px" />
+        {/* Express */}
+        <div className="dark:bg-bgClr_3 bg-slate-100 p-4 rounded-md">
+          <SiExpress className="dark:text-white text-cyan-700 text-7xl" />
+        </div>
+
+        {/* CSS3 */}
+        <div className="dark:bg-bgClr_3 bg-slate-100 p-4 rounded-md">
+          <FaCss3Alt className="dark:text-[#1572B6] text-cyan-700 text-7xl" />
+        </div>
+
+        {/* React */}
+        <div className="dark:bg-bgClr_3 bg-slate-100 p-4 rounded-md">
+          <FaReact className="dark:text-[#61DAFB] text-cyan-700 text-7xl" />
+        </div>
+
+        {/* Java */}
+        <div className="dark:bg-bgClr_3 bg-slate-100 p-4 rounded-md">
+          <FaJava className="dark:text-[#B07219] text-cyan-700 text-7xl" />
+        </div>
+
+        {/* Prisma */}
+        <div className="dark:bg-bgClr_3 bg-slate-100 p-4 rounded-md">
+          <SiPrisma className="dark:text-slate-400 text-cyan-700 text-7xl" />
+        </div>
+
+        {/* MongoDB */}
+        <div className="dark:bg-bgClr_3 bg-slate-100 p-4 rounded-md">
+          <SiMongodb className="dark:text-[#47A248] text-cyan-700 text-7xl" />
+        </div>
+
+        {/* Tailwind CSS */}
+        <div className="dark:bg-bgClr_3 bg-slate-100 p-4 rounded-md">
+          <RiTailwindCssFill className="dark:text-[#06B6D4] text-cyan-700 text-7xl" />
+        </div>
       </div>
     </section>
   );
