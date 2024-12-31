@@ -71,7 +71,7 @@ function Header() {
           >
             <i
               className="fa-brands fa-linkedin cursor-pointer 
-                dark:text-zinc-300 text-cyan-600"
+                dark:text-zinc-300 text-cyan-500"
             ></i>
           </a>
         </ul>
