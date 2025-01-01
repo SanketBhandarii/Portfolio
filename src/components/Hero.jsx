@@ -21,7 +21,7 @@ function Hero() {
       </section>
       <div className="z-10">
         <img
-          src={heroImg}
+          src="https://res.cloudinary.com/dyrmawqcn/image/upload/v1735734449/hero_d43sfj.jpg"
           className="w-width_4 rounded-full animeIcon dark:border-zinc-900 border-slate-100"
         />
       </div>

@@ -40,7 +40,7 @@ function About() {
           </p>
         </article>
         <img
-          src={aboutImg}
+          src="https://res.cloudinary.com/dyrmawqcn/image/upload/v1735735517/AboutImg_lidey6.webp "
           className="animeIcon rounded-full w-width_2 max-screen2:w-width_3 dark:border-zinc-800 border-slate-100"
         />
       </section>
