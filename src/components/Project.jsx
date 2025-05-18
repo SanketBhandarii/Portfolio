@@ -27,7 +27,7 @@ function Project() {
         Things I've built so far
       </p>
 
-      <main className="flex flex-wrap gap-10 justify-center mt-4 px-5">
+      <main className="flex flex-wrap gap-10 justify-center py-4 px-5">
         {projects.map((pro, index) => {
           return (
             <Tilt options={defaultOptions} key={index}>
