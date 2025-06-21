@@ -26,3 +26,5 @@ pnpm-lock-yaml
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Local Netlify folder
+.netlify
