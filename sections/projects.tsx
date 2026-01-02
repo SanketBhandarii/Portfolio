@@ -7,37 +7,28 @@ import Link from "next/link";
 
 const projects = [
   {
-    title: "CrickZone",
+    title: "Perspectiq",
     description:
-      "CrickZone is the app for tracking the cricket score bewteen 2 teams.  ",
-    tech: ["React", "Express", "Mongodb", "Tailwind"],
-    image: "/crickzone.png",
-    github: "https://github.com/SanketBhandarii/CrickZone",
-    live: "https://crick-zone.vercel.app",
+      "Perspectiq helps user to practice corporate conversations, make them better to handle tough conversation",
+    tech: ["React", "Fastapi", "NeonDB", "Langchain" ],
+    image: "/perspectiq.png",
+    github: "https://github.com/SanketBhandarii/Perspectiq",
+    live: "https://perspecti.vercel.app",
     featured: true,
     stats: { stars: 234, forks: 45 },
   },
 
   {
-    title: "Toolkit",
-    description: "It contains various tools, build using ml models.",
-    tech: ["TypeScript", "Next.js", "HuggingFace", "Web workers"],
-    image: "/toolkit.png",
-    github: "https://github.com/SanketBhandarii/Toolkit",
-    live: "https://toolkit-dun.vercel.app",
+    title: "YourPlanet",
+    description: "See what 7 billion people on earth are feeling daily",
+    tech: ["React.js", "Three.js", "Express.js", "Mongodb"],
+    image: "/yourplanet.png",
+    github: "https://github.com/SanketBhandarii/YourPlanet",
+    live: "https://yoursplanet.vercel.app",
     featured: true,
     stats: { stars: 156, forks: 28 },
   },
-  {
-    title: "ChatBoty",
-    description:
-      "ChatBot using React.js and Google Gemini API, provides code aswell",
-    tech: ["React.js", "GeminiAPI", "CSS"],
-    image: "/gpt.png",
-    github: "https://github.com/SanketBhandarii/ChatBoty",
-    live: "https://chatboty.netlify.app",
-    featured: true,
-  },
+
  
 ];
 
